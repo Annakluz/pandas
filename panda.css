@@ -27,3 +27,37 @@ a{
 a:hover{
     color:cadetblue;
 }
+
+.pandapicture {
+    display: inline-block;
+    width: 20%;
+    margin-top: 63px;
+}
+
+.pandapicture img{
+    max-width: 80%;
+}
+
+.btn{
+    background-color: #3F511D;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+        
+}
+.pContainer{
+
+    margin-right: auto;
+    margin-left: auto;
+}
+article{
+    max-width: 49%;
+    float: left;
+    padding: 5px;
+    text-align: left;
+    
+}
+
+footer {
+    clear: both;
+}
