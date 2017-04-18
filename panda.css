@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+     background: #e1d7bc;
+   
+}
+nav {
+    background-color: #3F511D;
+
+}
+
+li {
+    color:bisque;
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    list-style: none;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a:hover{
+    color:cadetblue;
+}
