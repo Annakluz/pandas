@@ -1,13 +1,17 @@
+//GlobalVariables
+
 let extincion = document.getElementById("extincion");
 let extincionText = document.getElementById("extitext");
 let origen = document.getElementById("origen");
 let origenText = document.getElementById("origentex")
 
+//Events
+
 extincion.addEventListener("click", hideExtincion);
 origen.addEventListener("click", hideOrigen);
 
 
-
+//These functions allow hiding and appearing texts
 
 function hideExtincion() {
     if (extincionText && extincionText.style.display == "none"){
