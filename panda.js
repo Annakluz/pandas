@@ -3,12 +3,14 @@
 let extincion = document.getElementById("extincion");
 let extincionText = document.getElementById("extitext");
 let origen = document.getElementById("origen");
-let origenText = document.getElementById("origentex")
-
+let origenText = document.getElementById("origentex");
+let close = document.getElementsByClassName("close");
+let pandaPicture =document.getElementsByClassName("pandapicture");
 //Events
 
 extincion.addEventListener("click", hideExtincion);
 origen.addEventListener("click", hideOrigen);
+//close.addEventListener("click", closeImg);
 
 
 //These functions allow hiding and appearing texts
@@ -29,3 +31,13 @@ function hideOrigen() {
       origenText.style.display = "none"; 
     }
     }
+//This function closes the images
+
+    for(var i = 0; i < close.length; i++) {
+        close[i].addEventListener("click", closeImg);
+    }
+
+function closeImg(){
+    pandaPicture.style.display = "none";
+
+}
